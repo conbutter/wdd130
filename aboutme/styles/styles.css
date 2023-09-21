@@ -1,3 +1,31 @@
-body  {
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+body { /* the tag that says "body" is a selector. the tag applies to everything on the page. */
+    text-align: center;
+    font-family:'Titillium Web', Helvetica, sans-serif;
 }
+
+    header {
+        padding: 5px;
+        background-color: #b7ebf4;
+    }
+
+  nav {
+    background-color: #3db1c5;
+    padding: 10px;
+  }
+
+  a {
+    color: white;
+    margin: 40px;
+  }
+
+  h1 {
+    color: #4dc4d9;
+  }
+  img {
+    padding-top: 10px;
+  }
+  p {
+    padding: 10px;
+  }
