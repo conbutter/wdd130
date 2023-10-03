@@ -1,0 +1,51 @@
+/* * {
+    border: 2px solid rgb(33, 177, 196);
+} */
+
+body {
+    background-color:#EEA8C6;
+    text-align: center;
+}
+
+#page-title {
+    color:white;
+    margin: 30px 28em;
+    font-family: Arial;
+}
+
+#page-title:hover {
+    color: black;
+}
+
+
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+.top-quote {
+    color:white;
+    margin: 0 28em;
+}
+
+.top-quote h3 {
+    font-family: Arial;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    margin: 1em 26em;
+    font-family: Arial;
+}
+
+.bottom-quote {
+    margin: 30px 30em;
+    color: white;
+}
+
+.bottom-quote p {
+    color: black;
+    font-family: Arial;
+}
