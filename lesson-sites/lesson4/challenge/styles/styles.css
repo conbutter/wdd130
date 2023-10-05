@@ -13,17 +13,6 @@ body {
     font-family: Arial;
 }
 
-#page-title:hover {
-    color: black;
-}
-
-
-img {
-    width: 15%;
-    display: block;
-    margin: 0 auto;
-}
-
 .top-quote {
     color:white;
     margin: 0 28em;
@@ -31,6 +20,17 @@ img {
 
 .top-quote h3 {
     font-family: Arial;
+
+}
+
+#page-title:hover {
+    color: black;
+}
+
+img {
+    width: 15em;
+    display: block;
+    margin: 0 auto;
 }
 
 ol {
@@ -38,6 +38,10 @@ ol {
     text-align: left;
     margin: 1em 26em;
     font-family: Arial;
+}
+
+li {
+    margin: 10px 0px;
 }
 
 .bottom-quote {
