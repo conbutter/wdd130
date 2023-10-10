@@ -1,39 +1,62 @@
-#content { /* This targets the entire page */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Poppins&display=swap');
+/* COLORS: Base blue #499AE6, Base tan #499AE6, Base light #78BDFF, Base dark blue #204f71 */
+
+/* SITE FORMATTING CONTENT (#content targets the entire page) */
+#content { 
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
 }
 
+/* Header content, including logo and navigation */
 .logo, .icon {
     width: 80px
 }
+    .logo-link {
+        padding-top: 5px;
+    }
 
-nav a { /* Navigation */
+.icon {
+    padding-top: 10px;
+}
+
+header {
+    background-color: #499AE6;
+}
+
+nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
     nav a:hover {
         background-color: #75b2eb;
         color:#FBF4EA;
     }
 
+ /* Hero elements and text */
 #hero-img {
     width: 100%;
 }
 
 #hero-msg h1, #hero-msg h4 { 
     text-align: center;
+    font-family: 'Josefin Slab', 'Cursive', 'Times New Roman';
 }
 
 .button-box { 
     text-align: center;
 }
 
+/* Main site body content */
 main section {
     text-align: center;
 }
+    main section img {
+        box-sizing: border-box;
+    }
 
-/* COLORS: Base blue #499AE6, Base tan #499AE6, Base light #78BDFF, Base dark blue #204f71 */
 #background { /* Background styling elements */
     height: 725px;
     background-color: #499AE6;
@@ -41,36 +64,84 @@ main section {
 
 body {
     background-color: #FBF4EA;
+    margin: 0;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    padding: 0;
+}
+    p, a {
+        font-family: 'Poppins', Helvetica, sans-serif;
+    }
+
+    
+h2 {
+    margin: 0;
 }
 
-header {
-    background-color: #499AE6;
+h4 {
+    color: #204f71;
+    font-family: 'Josefin Slab', 'Cursive', 'Times New Roman';
 }
 
+/* Styles for "Book Now" and "Join Now" buttons */
 .book, .join {
     background-color: #EBD1A7;
     color: #204f71;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+    .book:hover, .join:hover {
+        background-color: #75b2eb;
+        color: #4f4027
+    }
+
+/* Mountain home image styling */
+.mountains {
+    padding: 35px 0; /* ADDED BY MYSELF, NOT IN COURSE CONTENT */
 }
 
-.book:hover, .join:hover {
-    background-color: #75b2eb;
-    color: #4f4027
-}
-
+/* Styles for box of content at bottom, hence "messages" or "msg" */
 .msg {
-    background-color: #EBD1A7;
+    background-color: #f8ebd5;
+    line-height: 1.5em;
+    padding: 35px;
 }
     .msg h2 {
         color: #4f4027;
+        font-family: 'Josefin Slab', 'Cursive', 'Times New Roman';
     }
     .msg p {
         color: black;
+        font-size: .8em;
+        padding-bottom: 15px;
     }
 
+/* Styles for "home" elements, i.e. the boxes of Rivers, Camping, etc. */
+.home-title {
+    color: #204f71;
+    font-family: 'Josefin Slab', 'Cursive', 'Times New Roman';
+    font-size: 2em;
+    margin-top: 10px;
+}
+    .home-grid {
+        font-family: 'Josefin Slab', 'Cursive', 'Times New Roman';
+    }
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+    .card-image {
+        border: 10px solid #EBD1A7;
+    }
+
+/* FOOTER CONTENT  */
 footer {
     background-color: #204f71;
     color: #75b2eb;
+    padding: 25px 20px;
+    margin-top: 200px;
 }
     footer a {
         color: #9acbf9;
@@ -85,11 +156,6 @@ footer {
     footer p a:hover {
         text-decoration: underline;
     }
-
-.home-title {
-    color: #204f71;
-}
-
-h4 {
-    color: #204f71;
-}
+    footer .social img {
+        padding-top: 15px;
+    }
