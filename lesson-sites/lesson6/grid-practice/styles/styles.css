@@ -1,0 +1,15 @@
+h1 { /* "Tart & Sweet" text*/
+    font-size: 70px;
+}
+
+
+h2 { /* "Cherries" text*/
+    color:darkred;
+}
+
+#hero-grid {
+    display: grid;
+    background-color: rgb(220, 255, 255);
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1fr 1fr 1fr;
+}

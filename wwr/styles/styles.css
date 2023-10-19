@@ -21,7 +21,7 @@
 }
 
 header {
-    background-color: #499AE6;
+    background-color: #1C76CA;
 }
 
 nav a {
@@ -56,11 +56,6 @@ main section {
     main section img {
         box-sizing: border-box;
     }
-
-#background { /* Background styling elements */
-    height: 725px;
-    background-color: #499AE6;
-}
 
 body {
     background-color: #FBF4EA;
@@ -120,7 +115,7 @@ h4 {
 
 /* Styles for "home" elements, i.e. the boxes of Rivers, Camping, etc. */
 .home-title {
-    color: #204f71;
+    color: #1C76CA;
     font-family: 'Josefin Slab', 'Cursive', 'Times New Roman';
     font-size: 2em;
     margin-top: 10px;
@@ -135,6 +130,11 @@ h4 {
     .card-image {
         border: 10px solid #EBD1A7;
     }
+
+#background { /* Background section before "More Than The Thrill" part */
+    height: 725px;
+    background-color: #1C76CA;
+}
 
 /* FOOTER CONTENT  */
 footer {
