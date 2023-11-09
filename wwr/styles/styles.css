@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Poppins&display=swap');
-/* COLORS: Base blue #499AE6, Base tan #499AE6, Base light #78BDFF, Base dark blue #204f71 */
+/* COLORS: Base blue #499AE6, Base light blue #499AE6, Base light #78BDFF, Base dark blue #204f71 */
 
 /* ------------------------------------------------------------ */
 /*  SITE FORMATTING CONTENT (#content targets the entire page)  */
@@ -268,7 +268,7 @@ footer {
     }
 
     .faq-question-card {
-        border: black solid 3px;
+        border: #204f71 solid 3px;
         padding: 5px;
         text-align: left;
         margin: 15px 0 15px;
@@ -285,7 +285,7 @@ footer {
 
     .faq-main img {
         width: 100%;
-        border: 3px black solid;
+        border-radius: 25px;
     }
 
     .faq-picture1, .faq-picture2, .faq-picture3 {
