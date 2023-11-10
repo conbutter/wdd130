@@ -250,8 +250,6 @@ footer {
     .faq-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 0 auto;
-        max-width: 1fr;
         margin: 50px;
         padding: 25px;
         justify-content: left;
