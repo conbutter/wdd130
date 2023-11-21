@@ -30,18 +30,18 @@
             </section>
         </div>
         <main class='main-home'>
-            <div class='home-content'>
-                <section class='home-intro'>
-                    <h1>Welcome to <b>StarPort Archive</b></h1>
-                    <p>...the galaxy's number-one spot for everything <i>Space Mountain</i>. Ever since 1975, 
-                        <i>Space Mountain</i> has been delighting and surprising guests, providing them with a thrilling 
+            <section class='home-intro'>
+                <h1>Welcome to <b>StarPort Archive</b></h1>
+                <p>...the galaxy's number-one spot for everything <i>Space Mountain</i>. Ever since 1975, 
+                    <i>Space Mountain</i> has been delighting and surprising guests, providing them with a thrilling 
                         adventure through the cosmos unlike anything else ever created- and now, you can learn 
                         about exactly how this ground-breaking attraction came to be!
-                    </p>
-                </section>
-                <section class='the-basics'>
-                    <h2>The Basics:</h2>
-                    <p><i>Space Mountain</i> is a thrilling indoor roller coaster located at Disney theme parks 
+                </p>
+            </section>
+            <section class='the-basics'>
+                <div class='basics-text-hold'>
+                    <h2>The Basics</h2>
+                    <p id='basics-first-para'><i>Space Mountain</i> is a thrilling indoor roller coaster located at Disney theme parks 
                         that takes riders on an exhilarating journey through outer space. Unlike traditional 
                         roller coasters, it's set in complete darkness with a space-themed ambiance, creating 
                         a unique and immersive experience.</p>
@@ -53,11 +53,27 @@
                         attraction known for its combination of thrilling coaster elements and otherworldly theme. 
                         Ever since then, Space Mountain has been built in new parks across the world, allowing 
                         people from all over the world to experience their own thrilling space adventure.</p>
-                    <img class='basics-img' src='images/SMClearWDW.jpg' alt='Space Mountain at Walt Disney World'>
-                    <img class="basics-img" src="images/SMQueueP1.jpg" alt="The 'star-tunnel' queue from Space Mountain at Walt Disney World">
-                </section>
-            </div>
-            <div id='background'></div>
+                    <section class='basics-stats'>
+                        <h2>Statistic Specifics:</h2>
+                        <ul>
+                            <li><b>OPENING DATE: </b> January 15th, 1975 <i>(WDW)</i></li>
+                            <li><b>TOP SPEED: </b>27 MPH</li>
+                            <li><b>COST: </b>$20 MILLION USD</li>
+                            <li><b>MANUFACTURER: </b>Arrow Dynamics</li>
+                            <li><b>MAX G-FORCE: </b>3.7</li>
+                            <li><b>MAX DROP HEIGHT: </b>26 ft</li>
+                            <li><b>HEIGHT RESTRICTION: </b>44 in.</li>
+                            <li><b>DURATION: </b>2 minutes, 30 seconds</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class='basics-image-hold'>
+                    <img class='basics-img' id='basics-img1' src='images/SMClearWDW.jpg' alt='Space Mountain at Walt Disney World'>
+                    <p class='basics-caption' id='basics-caption1'><i>The exterior of Space Mountain, featuring a white mountain-like structure.</i></p>
+                    <img class='basics-img' id='basics-img2' src="images/SMQueueP1.jpg" alt="The 'star-tunnel' queue from Space Mountain at Walt Disney World">
+                    <p class='basics-caption' id='basics-caption2'><i>A portion of the queue at Space Mountain, nicknamed the 'Star Tunnel'.</i></p>
+                </div>
+            </section>
             <div class='home-card'>
                 <img class='home-card-img' src='images/SMOldEntryWDW.jpg' alt='Old picture of Space Mountain at Walt Disney World, with different color tones'>
                 <section class='home-msg'>
@@ -73,18 +89,19 @@
             </div>
         </main>
         <footer>
-            <h2>&copy; 2023 Fuse Entertainment Company</h2>
-            <p><i>Space Mountain®</i> is a registered trademark of the Walt Disney Company. Fuse Entertainment
-                Company is not authorized or endorsed by, or in any way officially connected with,
-                The Walt Disney Company, Disney Enterprises, Inc., or any of their affiliates; nor does
-                Fuse Entertainment claim ownership over any trademarks used. All trademarks, service marks, 
-                and trade names are proprietary to Disney Enterprises, Inc., its subsidiary, affiliated 
-                and related companies, as the case may be. For official Disney information, visit 
-                <a href="https://www.disney.com/">https://www.disney.com/</a></p>
-            <h3>Created by <b>Connor Butterfield</b></h3>
-            <p><a href='site-plan.html'>Site Plan</a></p>
-            <a class="logo_link" href="index.html">
-                <img class="logo-footer" src="images/starportarchivelogo.png" alt="StarPort Archive logo">
+            <section class='footer-main'>
+                <h2>&copy; 2023 Fuse Entertainment Company</h2>
+                <p><i>Space Mountain®</i> is a registered trademark of the Walt Disney Company. Fuse Entertainment
+                    Company is not authorized or endorsed by, or in any way officially connected with,
+                    The Walt Disney Company, Disney Enterprises, Inc., or any of their affiliates; nor does
+                    Fuse Entertainment claim ownership over any trademarks used. All trademarks, service marks, 
+                    and trade names are proprietary to Disney Enterprises, Inc., its subsidiary, affiliated 
+                    and related companies, as the case may be. For official Disney information, visit 
+                    <a href="https://www.disney.com/">https://www.disney.com/</a></p>
+                <h3>Created by <b>Connor Butterfield</b> - <a href='site-plan.html'>Site Plan</a></h3>
+            </section>
+            <a class="logo_link" id='logo-footer' href="index.html">
+                <img class="logo-footer" src="images/starportarchivelogo_grey.png" alt="StarPort Archive logo">
             </a>
         </footer>
     </div>
