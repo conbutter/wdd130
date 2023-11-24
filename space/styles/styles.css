@@ -279,7 +279,8 @@ footer p {
 .basics-img {
    max-width: 100%;
    margin: 50px;
-   padding-right: 100px;
+   /* padding-right: 100px; Had a really cool "slid-in" effect, but it extended the page to the side. 
+   Disabled for now until I figure out how to fix the extension.*/
    border-radius: 50px;
    display: flex;
 }
