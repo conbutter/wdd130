@@ -345,6 +345,22 @@ footer p {
 /* HISTORY PAGE CSS */
 /* ---------------- */
 
+.history-intro h1 { 
+   text-align: center;
+   font-family: "Audiowide", "Trebuchet MS";
+   color: black;
+}
+
+.history-intro h3 {
+   text-align: center;
+   font-family: "Lexend Deca", "Tahoma", sans-serif;
+   color: black;
+}
+
+.history-info {
+   margin: 40px;
+}
+
 /* ---------------- */
 /* SECRETS PAGE CSS */
 /* ---------------- */
