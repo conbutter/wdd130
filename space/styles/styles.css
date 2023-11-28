@@ -346,32 +346,48 @@ footer p {
 /* ---------------- */
 
 .history-intro {
-   margin: 50px;
    padding-bottom: 10px;
+   padding-top: 5px;
+   padding-bottom: 45px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #2F4567;
 }
 
 .history-intro h1 { 
    text-align: center;
    font-family: "Audiowide", "Trebuchet MS";
-   color: black;
+   color: white;
    font-size: 2em;
 }
 
 .history-intro h3 {
    text-align: center;
    font-family: "Lexend Deca", "Tahoma", sans-serif;
-   color: black;
+   color: white;
    font-size: 1.4em;
    margin: -10px;
 }
 
 .history-info {
-   margin: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 25px;
+   margin-bottom: 25px;
 }
 
 .history-info p {
    font-family: "Lexend Deca", "Tahoma", sans-serif;
    font-size: 1.2em;
+}
+
+.history-img-hold {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   background-color: #d3d4d9;
+   padding: 15px;
+   border-radius: 20px;
 }
 
 .history-img {
@@ -381,6 +397,8 @@ footer p {
 
 .history-img-cap {
    margin: 5px;
+   font-family: "Lexend Deca", "Tahoma", sans-serif;
+   color: rgb(44, 44, 44);
 }
 
    #history-img-1 {
@@ -403,14 +421,17 @@ footer p {
       grid-row: 2/3;
    }
 
-.history-img-hold {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 10px;
-}
-
 .history-ride-list {
    font-size: 1.3em;
+   height: 200px;
+   padding-top: 5px;
+   padding-bottom: 45px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #2F4567;
+   z-index: 0;
+   color: white;
+   border: 20px white solid;
    font-family: "Lexend Deca", "Tahoma", sans-serif;
 }
 
