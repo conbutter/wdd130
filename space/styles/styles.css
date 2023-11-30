@@ -515,11 +515,13 @@ footer p {
 .secrets-card-flair-text {
    font-family: "Audiowide", "Trebuchet MS";
    margin-bottom: -5px;
+   color: black;
+   text-shadow: 1px 1px 1px #DCF951;
+   letter-spacing: 5px;
 }
 
 .secrets-card-title {
-   text-shadow: 2px 2px 2px black;
-   color: #DCF951;
+   color: #2D499B;
 }
 
 .secrets-card p {
