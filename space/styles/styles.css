@@ -442,3 +442,100 @@ footer p {
 /* ---------------- */
 /* SECRETS PAGE CSS */
 /* ---------------- */
+
+.secrets-intro {
+   padding-bottom: 10px;
+   padding-top: 5px;
+   padding-bottom: 45px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #2F4567;
+}
+
+.secrets-intro h1 { 
+   text-align: center;
+   font-family: "Audiowide", "Trebuchet MS";
+   color: white;
+   font-size: 2em;
+}
+
+.secrets-intro h3 {
+   text-align: center;
+   font-family: "Lexend Deca", "Tahoma", sans-serif;
+   color: white;
+   font-size: 1.4em;
+   margin: -10px;
+}
+
+.secrets-info {
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+.secrets-card {
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   border: #2F4567 5px solid;
+   border-radius: 10px;
+   background-color: rgb(205, 205, 205);
+}
+
+.secrets-card-w-pic {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   border: #2F4567 5px solid;
+   border-radius: 10px;
+   background-color: rgb(205, 205, 205);
+   grid-column-gap: 20px;
+}
+
+.secrets-card-img-hold {
+   grid-column: 2/3;
+}
+
+.secrets-card-img {
+   max-width: 100%;
+   border-radius: 25px;
+}
+
+.secrets-info p {
+   color: black;
+   font-family: "Lexend Deca", "Tahoma", sans-serif;
+   font-size: 1.2em;
+}
+
+.secrets-card-flair-text {
+   font-family: "Audiowide", "Trebuchet MS";
+   margin-bottom: -5px;
+}
+
+.secrets-card-title {
+   text-shadow: 2px 2px 2px black;
+   color: #DCF951;
+}
+
+.secrets-card p {
+   padding-bottom: 25px;
+   margin: 0;
+}
+
+.secrets-card-img p{
+   margin: 0;
+}
+
+.secrets-card-para-img {
+   margin: 0
+}
+
+.secrets-card-title {
+   font-family: "Audiowide", "Trebuchet MS";
+   grid-column: 1/3;
+}
